@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="15dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,9 +19,11 @@
 
     <ListView
         android:id="@+id/timerListView"
-        android:layout_width="403dp"
-        android:layout_height="674dp"
+        android:layout_width="337dp"
+        android:layout_height="669dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
